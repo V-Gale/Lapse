@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4918332120726841358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4918332120726841359}
+  - component: {fileID: 4918332120726841356}
+  - component: {fileID: 332071178}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4918332120726841359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4918332120726841358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4918332120726841356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4918332120726841358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d6b6b140651934699f90686496f64a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - audioType: 0
+    name: PlayerDeath
+    clip: {fileID: 8300000, guid: 19c259d301b9bdf45adf2bd50b465421, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: PlayerOrb
+    clip: {fileID: 8300000, guid: 529b6d792b908a944a26b6da81d6e5de, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: PlayerJump
+    clip: {fileID: 8300000, guid: 87eae8a5e12fb5b4aae23d277ba75d31, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: CardPickUp
+    clip: {fileID: 8300000, guid: 6bc1538aa2281e3499f87af891e667c4, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: CardDrop
+    clip: {fileID: 8300000, guid: ababc8f75cc172c48819cfefb95af3b4, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: Health
+    clip: {fileID: 8300000, guid: 40a05eab5f678024395157693548fa59, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 1
+    name: LevelMainTheme
+    clip: {fileID: 8300000, guid: 3ab6f1bb1904d0b4d86d256d6d6b1eef, type: 3}
+    volume: 0.3
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 1
+  - audioType: 0
+    name: SniperShoot
+    clip: {fileID: 8300000, guid: 15cf56ea93c29a742859d16d19e09f0a, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 1
+    name: MainMenuTheme
+    clip: {fileID: 8300000, guid: 92abcbcb5f689534f88864aa60585e0e, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 1
+  - audioType: 0
+    name: KamikazeExplosion
+    clip: {fileID: 8300000, guid: 01f6adb9b9813d9419475505bb99bc01, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: VisorPunch
+    clip: {fileID: 8300000, guid: d1583545600c57d4da02ba5fcc665442, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: PoisonCubeSound
+    clip: {fileID: 8300000, guid: 80ff63ecf1e48cf40adfedce9c127621, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: AuraButtonActivated
+    clip: {fileID: 8300000, guid: caa6a4c28f8cc4d4b9f8b593ddfe0607, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: GlitchDestroyed
+    clip: {fileID: 8300000, guid: e2e6575b4104e32438eeba35b1c447ba, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: DoorOpen
+    clip: {fileID: 8300000, guid: 7b5bc4f20d3fef5449a0e56737b01f0d, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: PlayerStaminaPowerOn
+    clip: {fileID: 8300000, guid: 07b5e851801044d41b4545d1398a5cea, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: PlayerStaminaPowerOff
+    clip: {fileID: 8300000, guid: adf1bfd8b0fef2245be4e1224c84bc25, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: PlayerDamaged
+    clip: {fileID: 8300000, guid: 2aef73e9d0ad79f458c19992d33552d8, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: ButtonConfirm
+    clip: {fileID: 8300000, guid: 690c99adfe8d73142b3fd3f83a92a686, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 0
+    name: ButtonCancel
+    clip: {fileID: 8300000, guid: 659908770515aeb4c9a492530903c00d, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 0
+  - audioType: 1
+    name: NormalEndingSong
+    clip: {fileID: 8300000, guid: 92abcbcb5f689534f88864aa60585e0e, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 1
+  - audioType: 1
+    name: PrismaticEndingSong
+    clip: {fileID: 8300000, guid: 7adebcd0e82462640bb3ad45cdb267cc, type: 3}
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+    source: {fileID: 0}
+    loop: 1
+  musicMixerGroup: {fileID: -664043898205734589, guid: cf6703c38c7253245944b41a4c84b0cd, type: 2}
+  soundEffectsMixerGroup: {fileID: -1472574825910305881, guid: cf6703c38c7253245944b41a4c84b0cd, type: 2}
+--- !u!114 &332071178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4918332120726841358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adcab503f68c50458f536e7bf95794a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSliderText: {fileID: 0}
+  soundEffectSliderText: {fileID: 0}
+  musicSlider: {fileID: 0}
+  soundeffSlider: {fileID: 0}

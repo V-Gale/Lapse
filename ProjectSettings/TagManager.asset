@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Bullet
+  - PlayerItemHolder
+  - RedCard
+  - GreenCard
+  - YellowCard
+  - BlueCard
+  - RedDoor
+  - YellowDoor
+  - GreenDoor
+  - BlueDoor
+  - VioletCard
+  - VioletDoor
+  - Orb
+  - AuraLockButton
+  - WhiteDoor
+  - WhiteCard
+  - PrismaticCard
+  - PrismaticDoor
+  - PrismaticPH
+  - Fog
+  - PrismaticEnding
+  - NormalEnding
+  - MusicSlider
+  - SESlider
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - WhatIsPlayer
+  - Water
+  - UI
+  - WhatIsGround
+  - Obstruction
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
